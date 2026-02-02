@@ -1,0 +1,133 @@
+head{
+    background-color: #f0f0f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0381fe;
+    text-align: center;
+    background-color: black;
+}
+
+.heading h1{
+    margin: 0;
+}
+
+.description{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #555555;
+    text-align: center;
+}
+
+.description p{
+    margin: 0 0 10px 0;
+}
+
+#akanForm{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: #0381fe;
+}
+
+#akanForm label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#akanForm input[type="text"],
+#akanForm input[type="date"]
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#akanForm input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #0381fe;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#akanForm input[type="submit"]:hover{
+    background-color: #e0e0e0;
+}
+
+#result{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color:#0381fe;
+    text-align: center;
+}
+
+#result p{
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#result {
+    color: #ffffff;
+}
+
+#result h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    color: #f3f3f3;
+}
+
+#akanName {
+    font-weight: bold;
+    color: #ff5733;
+
+}
+
+#error {
+    color: #ff0000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 250px;
+    font-size: 14px;
+    color: #0381fe;
+    background-color: #0a0a0a;
+}
+
+.footer p {
+    margin: 5px 0;
+}
