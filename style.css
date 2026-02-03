@@ -82,6 +82,7 @@ body{
     border-radius: 3px;
     font-size: 16px;
     cursor: pointer;
+    height: 40px;
 }
 
 #akanForm input[type="submit"]:hover{
