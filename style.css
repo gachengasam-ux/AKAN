@@ -13,6 +13,8 @@ body{
     background-color: #ffffff;
     color: #333333;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 0%;
+    padding-left: 0%;
 }
 
 .heading{
